@@ -22,7 +22,7 @@ const MyButton: React.FC<ButtonProps> = ({
 }) => {
 
   const handleToggleDarkMode = () => {
-    console.log('try');
+    
     
     setDark(!dark);
   };

@@ -30,7 +30,6 @@ const Jokes = () => {
     try {
       const response = await getJokes();
       if (response) {
-        console.log('cjheck',response);
         
         const tempData = response.map((el: any, index: number) => ({
           jokeId: el.id,
@@ -43,7 +42,7 @@ const Jokes = () => {
         setJokes(tempData);
       }
     } catch (err) {
-      console.log("get courier err", err);
+      console.log(" err", err);
     } finally {
       setLoading(false);
     }

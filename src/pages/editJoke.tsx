@@ -53,7 +53,7 @@ const EditFormPage = () => {
   const handleDelete = async (e: any) => {
     try {
       const res = await deleteJoke(id);
-      console.log("joke deleted:", res);
+    
       setFormData({
         Title: "",
         Author: "",
