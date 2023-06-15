@@ -54,5 +54,8 @@
   "devDependencies": {
     "@types/react-router-config": "^5.0.7",
     "@types/styled-components": "^5.1.26"
+  },
+  "engines": {
+    "node": "16.x"
   }
 }
